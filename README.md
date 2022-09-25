@@ -1,16 +1,17 @@
 # providerdetails
 
-A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This app has a provider handling several states of both related and independent data.
 
-A few resources to get you started if this is your first Flutter project:
+## Approach
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Getting hang of four most commonly used methods of provider (since Flutter UI/UX is quite easy and helpful main thing goes south at other points).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Key  Points
+
+- <b>read</b> to fetch
+- <b>watch</b> to observe
+- <b>select</b> to update
+- <b>Provider.of</b> to aceess outside of build
